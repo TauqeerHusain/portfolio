@@ -1,0 +1,55 @@
+.navbarWrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    top: 0;
+}
+
+.navbarLeft {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+}
+
+.navbarName {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.navbarRight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+}
+
+.navbarList {
+    flex: 10;
+}
+
+.navbarList>ul {
+    display: flex;
+    gap: 3rem;
+    margin-right: 4rem;
+}
+
+.navbarList>ul>li:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.navbar-button {
+    flex: 2;
+    width: 6rem;
+    height: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-list {
+        display: none;
+    }
+}
