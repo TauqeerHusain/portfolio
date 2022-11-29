@@ -27,7 +27,14 @@ const Intro = () => {
             Quality work
           </span>
         </div>
-        <button className="button intro-button">Hire me</button>
+        <form
+          target="_blank"
+          action="https://drive.google.com/file/d/146jl8jYJT-qi0kW0l_dsRxgRosu1nWva/view?usp=share_link"
+        >
+          <button className="button intro-button" type="submit">
+            See my CV
+          </button>
+        </form>
         <div className="intro-icons">
           <img src={Github} alt="" />
           <img src={Linkedin} alt="" />

@@ -27,8 +27,6 @@ const Services = () => {
           Unsuccessful people are always asking, 'What's in it for me?'"
         </span>
 
-        <button className="button s-button">Download CV</button>
-
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
 
