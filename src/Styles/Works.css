@@ -42,6 +42,7 @@
 /* right side */
 .w-right {
     position: relative;
+    left: 130px;
 }
 
 .w-mainCircle {
